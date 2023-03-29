@@ -1,0 +1,191 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.titulo-geral {
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(125, 125, 125);
+}
+.subtitulo {
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-bottom: 3px solid gray;
+}
+section {
+  margin-top: 20px;
+}
+form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.id,
+.cadastrado,
+.alterado,
+.criado,
+.ativacao,
+.desativacao {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+#idnumber {
+  width: 100px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.cadastrado input {
+  width: 200px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.alterado input {
+  width: 200px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.criado input {
+  width: 200px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.ativacao input {
+  width: 140px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.desativacao input {
+  width: 140px;
+  padding: 4px;
+  background-color: rgb(203, 203, 203);
+}
+.geral-1 {
+  display: flex;
+  width: 100%;
+}
+.esquerda,
+.direita {
+  width: 50%;
+}
+.esquerda {
+  margin-right: 20px;
+}
+.direita {
+  margin-left: 20px;
+}
+
+.nome,
+.documento,
+.email,
+.telefone {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.documento,
+.telefone {
+  margin-left: 5%;
+}
+.observacao {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  width: 100%;
+}
+.geralmesmo {
+  margin: 20 20 20 20;
+}
+.titulo-1,
+.titulo-2 {
+  margin: 30 0 50 0;
+  border-bottom: 3px solid gray;
+  padding-bottom: 8px;
+}
+#observacao {
+  resize: none;
+  width: 100%;
+}
+.observacao {
+  height: 100%;
+}
+.cont-1,
+.cont-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rua,
+.estado {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.rua {
+  margin-left: 5%;
+}
+.cidade,
+.numero,
+.comple {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.cidade {
+  width: 45%;
+  margin-right: 5%;
+}
+.numero,
+.comple {
+  width: 20%;
+}
+.numero {
+  margin-right: 5%;
+}
+.bairro,
+.cep {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.bairro {
+  width: 45%;
+}
+.cep {
+  width: 25%;
+  margin-left: 5%;
+}
+.cep input {
+  width: 86px;
+}
+.barra-final {
+  margin-top: 40px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(203, 203, 203);
+  border-top: 3px solid rgb(125, 125, 125);
+}
+.salvar,
+.limpar {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.container-geral {
+  border: 3px solid rgb(125, 125, 125);
+  border-radius: 5px;
+}
